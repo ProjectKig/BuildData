@@ -662,6 +662,7 @@ DamageSource b LIGHTNING
 DamageSource c ()Z isExplosion
 DamageSource c BURN
 DamageSource d LAVA
+DamageSource d ()LDamageSource; setExplosion
 DamageSource e ()Z ignoresArmor
 DamageSource e STUCK
 DamageSource f ()F getExhaustionCost
@@ -677,9 +678,10 @@ DamageSource k ()LDamageSource; setIgnoreArmor
 DamageSource k GENERIC
 DamageSource l MAGIC
 DamageSource m WITHER
-DamageSource n ()LDamageSource; setExplosion
+DamageSource n ()LDamageSource; setBurn
 DamageSource n ANVIL
 DamageSource o FALLING_BLOCK
+DamageSource o ()Z isBurn
 DamageSource p translationIndex
 DamageSource s ()Z isMagic
 DamageSource t ()LDamageSource; setMagic
